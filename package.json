@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.7.9",
@@ -15,7 +17,10 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "homepage": "https://C-MOHAMMED-ZAID.github.io/TO-DO-APP"
+  
 }
